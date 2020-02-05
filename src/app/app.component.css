@@ -1,0 +1,25 @@
+.full {
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  /* example padding, font-size, background, etc */
+  /* padding: 10px; */
+  grid-gap: 10px;
+  display: grid
+}
+
+.full a {
+  align-items: center;
+
+}
+
+
+.full img {
+  display: block;
+
+  transition: all .2s ease-in-out;
+}
+
+.full img:hover {
+  transform: scale(1.1);
+}
